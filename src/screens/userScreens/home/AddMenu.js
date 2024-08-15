@@ -27,7 +27,7 @@ const AddMenu = () => {
   const navigation = useNavigation();
 
   const handleSave = () => {
-    if (title && name && price && des) {
+    if (title && name && price && des&&avatarImage) {
       setLoading(true);
       setTimeout(() => {
         setLoading(false);
@@ -58,7 +58,7 @@ const AddMenu = () => {
   return (
     <TouchableWithoutFeedback onPress={() => setIsOpened(false)}>
       <SafeAreaView style={{flex: 1, backgroundColor: Colors.BGColor}}>
-        <View style={[styles.safeArea, {opacity: isOpened ? 0.75 : 1}]}>
+        <View style={[styles.safeArea, {opacity: isOpened ? 0.25 : 1}]}>
           <ScrollView showsVerticalScrollIndicator={false}>
             <Text style={styles.pageTitle}>Home</Text>
             <View style={styles.MenuDetailsCard}>

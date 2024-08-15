@@ -25,7 +25,7 @@ const Orders = () => {
   return (
     <TouchableWithoutFeedback onPress={() => setIsOpened(false)}>
       <SafeAreaView style={{flex: 1, backgroundColor: Colors.BGColor}}>
-        <View style={[styles.container, {opacity: isOpened ? 0.75 : 1}]}>
+        <View style={[styles.container, {opacity: isOpened ? 0.25 : 1}]}>
           <ScrollView showsVerticalScrollIndicator={false}>
             <View style={styles.headerContainer}>
               <TouchableOpacity

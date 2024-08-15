@@ -111,7 +111,7 @@ const Finance = () => {
               barRadius: 3,
               backgroundGradientFrom: Colors.EerieBlack,
               backgroundGradientTo: Colors.EerieBlack,
-              barPercentage: 0.35,
+              barPercentage: 0.25,
               decimalPlaces: 0,
               color: () => Colors.btnColor,
               fillShadowGradient: Colors.btnColor,
@@ -129,7 +129,7 @@ const Finance = () => {
           />
           <TouchableOpacity
             activeOpacity={0.8}
-            style={{position: 'absolute', top: '7%', left: '31.5%'}}>
+            style={{position: 'absolute', top: '7%', left: '31%'}}>
             <Icons.graphValueBG />
             <Text
               style={{
